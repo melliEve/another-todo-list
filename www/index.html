@@ -12,9 +12,33 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
-    <title>Todo List</title>
+    <title>Vanilla JavaScript</title>
   </head>
   <body>
+    <nav>
+      <div class="logo">
+        <h4>The Nav</h4>
+      </div>
+      <ul class="nav-links">
+        <li><a route="/" href="home">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/todo-list">Todo list</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <div class="box1">
+      <a class="section1" href="#">Bring me down</a>
+    </div>
+    <div class="box2">
+      <a class="section2" href="#">Thanks for visiting</a>
+      <img src="../pics/flowerButterfly.JPG" alt="eden and jay" />
+    </div>
+    <!-- <div id="app"></div> -->
+
     <header>
       <h1>Mel's todo list</h1>
     </header>
@@ -35,6 +59,9 @@
       <ul class="todo-list"></ul>
     </div>
 
-    <script src="./app.js"></script>
+    <script src="./js/navBar.js"></script>
+    <script src="./js/pageScroll.js"></script>
+    <script src="./js/about.js"></script> 
+    <script src="./js/todoList.js"></script>
   </body>
 </html>
